@@ -1,0 +1,33 @@
+# @name getList-api
+GET http://localhost:3333/cadastro
+
+###
+
+# @name post-create-api
+POST http://localhost:3333/create
+Content-Type: application/json
+
+{
+    "name": "Luiza Mel",
+    "senha": "4123123",
+    "email": "luluzinha@hotmail.com"
+}
+
+###
+
+# @name delete
+DELETE http://localhost:3333/cadastroDelete/df53818c-692d-47a9-9975-daafa57def87
+
+###
+
+# @name updateAPI
+PUT http://localhost:3333/cadastro/1f53686f-f66c-4754-a88c-5173fa764cc0
+Content-Type: application/json
+
+{
+    "name": "joselithor",
+    "senha": "blaublau4356",
+    "email": "jojin@hotmail.com"
+}
+
+ 
