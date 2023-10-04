@@ -16,6 +16,7 @@ export async function updateCadastro(app: FastifyInstance) {
         contact: z.number().optional(),
       });
 
+      
       const { id } = paramsSchema.parse(request.params);
       const { name, senha, email, contact } = bodySchema.parse(request.body);
       try {
